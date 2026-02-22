@@ -57,3 +57,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# laravel12_projectperusahaan
+
+Tugas ramadhan project api
+
+## Fitur
+- CRUD Barang
+- CRUD Nota
+- CRUD Dettail Nota
+- Relasi Nota dengan Barang
+- Validasi Request
+- Response JSON Rapi
+
+## Endpoint Utama
+- GET /api/barang
+- POST /api/barang
+- PUT /api/barang/1
+- DELETE /api/barang/1
+- GET /api/nota
+- POST /api/nota
+
+## Teknologi
+- Laravel 12
+- MySQL
+- Postman
