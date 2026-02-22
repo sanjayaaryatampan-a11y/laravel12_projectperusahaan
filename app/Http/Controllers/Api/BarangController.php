@@ -35,7 +35,7 @@ class BarangController extends Controller
 
         return response()->json([
             'success' => true,
-            'message' => 'Barang Berhasil Ditambahkan',
+            'message' => 'barang Berhasil Ditambahkan',
             'data' => $barang
         ], 201);
     }
