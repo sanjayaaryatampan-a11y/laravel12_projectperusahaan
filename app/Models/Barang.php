@@ -6,7 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Barang extends Model
 {
-    protected $fillable = ['kd_barang', 'nama_barang', 'harga'];
+    protected $fillable = [
+        'kd_barang',
+        'nama_barang',
+        'harga'];
 
     public function detailNotas()
     {
