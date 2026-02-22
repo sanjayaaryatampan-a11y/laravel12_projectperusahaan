@@ -13,10 +13,18 @@ return new class extends Migration
     {
         Schema::create('detail_notas', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('nota_id')->constrained('notas')->onDelete('cascade');
-            $table->foreignId('barang_id')->constrained('barangs')->onDelete('cascade');
+
+            $table->foreignId('nota_id')
+            ->constrained('notas')
+            ->onDelete('cascade');
+
+            $table->foreignId('barang_id')
+            ->constrained('barangs')
+            ->onDelete('cascade');
+
             $table->integer('jumlah');
             $table->integer('subtotal');
+            
             $table->timestamps();
         });
     }
